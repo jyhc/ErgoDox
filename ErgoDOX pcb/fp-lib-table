@@ -2,5 +2,5 @@
   (lib (name "ErgoDOX pcb")(type "KiCad")(uri "$(KIPRJMOD)")(options "")(descr ""))
   (lib (name "lib_footprints")(type "KiCad")(uri "E:/Program Files/KiCad/lib_footprints")(options "")(descr ""))
   (lib (name "daprice_switch_footprints")(type "KiCad")(uri "C:/Users/jyhc4/keyswitches.pretty")(options "")(descr ""))
-  (lib (name "marbastlib")(type "KiCad")(uri "C:/Users/jyhc4/marbastlib/marbastlib-choc.pretty")(options "")(descr ""))
+  (lib (name "marbastlib")(type "KiCad")(uri "C:/Users/jyhc4/ErgoDox/ErgoDOX pcb")(options "")(descr ""))
 )
