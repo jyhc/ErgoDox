@@ -1,4 +1,4 @@
-20292378062849663
+20292379561364693
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -52098,8 +52098,8 @@ HRO-TYPE-C-31-M-12-HandSoldering
 
 
 0
-16
-13
+28
+14
 ErgoDOX pcb
 MX_FLIP_DIODE
 
@@ -85971,8 +85971,8 @@ HRO-TYPE-C-31-M-12-HandSoldering
 
 
 0
-16
-13
+28
+14
 marbastlib
 MX_FLIP_DIODE
 
