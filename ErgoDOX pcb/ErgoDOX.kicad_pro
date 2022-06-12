@@ -33,9 +33,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.0,
-          "height": 0.3,
-          "width": 0.575
+          "drill": 0.8128,
+          "height": 1.524,
+          "width": 1.524
         },
         "silk_line_width": 0.6095999999999999,
         "silk_text_italic": false,
@@ -48,14 +48,32 @@
           "min_clearance": 0.508
         }
       },
-      "diff_pair_dimensions": [
-        {
-          "gap": 0.0,
-          "via_gap": 0.0,
-          "width": 0.0
-        }
+      "diff_pair_dimensions": [],
+      "drc_exclusions": [
+        "clearance|54939700|51932000|272d7cd0-a162-4000-8076-696ef099ca92|3fc097f4-9261-461b-8681-71f63e9efda5",
+        "clearance|54939700|53202000|272d7cd0-a162-4000-8076-696ef099ca92|0a8e8c73-55dc-46bd-96e4-002b8a6bff1a",
+        "clearance|54939700|54472000|350e9ad4-e6fd-4b69-a10c-8dea8ec06729|0a8e8c73-55dc-46bd-96e4-002b8a6bff1a",
+        "clearance|54939700|55742000|350e9ad4-e6fd-4b69-a10c-8dea8ec06729|b19d0b91-a8e1-4063-823b-19ef931e8012",
+        "clearance|54939700|57012000|e753cea6-3899-4b13-820a-89d3a21b96a5|b19d0b91-a8e1-4063-823b-19ef931e8012",
+        "clearance|54939700|58282000|e753cea6-3899-4b13-820a-89d3a21b96a5|666c34f6-e39d-405d-92ef-015a7627b24d",
+        "clearance|54939700|59552000|b5b793f2-c1c8-4fe8-bf8d-adeefc3c9656|666c34f6-e39d-405d-92ef-015a7627b24d",
+        "clearance|54939700|60822000|b5b793f2-c1c8-4fe8-bf8d-adeefc3c9656|6d58771f-bce9-4bce-bc79-41d6559da7cc",
+        "clearance|54939700|62092000|e1423549-90e4-4773-aed2-985bc50999f0|6d58771f-bce9-4bce-bc79-41d6559da7cc",
+        "clearance|54939700|63362000|e1423549-90e4-4773-aed2-985bc50999f0|1899e0d8-31a3-45fc-ab5c-cd51bd3f0fff",
+        "clearance|54939700|64632000|c4b450b7-cc8c-408c-915a-e7dc08cd90e8|1899e0d8-31a3-45fc-ab5c-cd51bd3f0fff",
+        "clearance|54939700|65902000|c4b450b7-cc8c-408c-915a-e7dc08cd90e8|4faedeaa-26ff-41b8-9587-ce313f47c055",
+        "clearance|54939700|67172000|585e2ee4-022f-4c7a-890d-09bb947be974|4faedeaa-26ff-41b8-9587-ce313f47c055",
+        "clearance|54939700|68442000|585e2ee4-022f-4c7a-890d-09bb947be974|6eef88c7-579e-4257-b5ae-1b3438989626",
+        "clearance|54939700|69712000|b42d54ec-d751-43ca-91cf-66272d1e997f|6eef88c7-579e-4257-b5ae-1b3438989626",
+        "clearance|54939700|70982000|b42d54ec-d751-43ca-91cf-66272d1e997f|5bb89e5e-ce20-46ee-b1c3-1d2ece2ae3ea",
+        "clearance|54939700|72252000|39d0b31a-ca81-47d7-bc92-dde57568c9f5|5bb89e5e-ce20-46ee-b1c3-1d2ece2ae3ea",
+        "clearance|54939700|73522000|39d0b31a-ca81-47d7-bc92-dde57568c9f5|815428de-9bff-4ea3-994b-a449faa75808",
+        "clearance|54939700|74792000|367b188d-37fe-484b-81d6-55d7b20e12a1|815428de-9bff-4ea3-994b-a449faa75808",
+        "clearance|54939700|76062000|367b188d-37fe-484b-81d6-55d7b20e12a1|57401de8-1656-4ea6-8eaf-787f28661c33",
+        "clearance|54939700|77332000|2261bf1a-662d-4198-a313-21e83aa1a7fc|57401de8-1656-4ea6-8eaf-787f28661c33",
+        "clearance|54939700|78602000|2261bf1a-662d-4198-a313-21e83aa1a7fc|409b2dbc-b577-4f95-b553-be2b0b1f7216",
+        "clearance|54939700|79872000|8ff6f0a4-a6fb-474a-817f-eeff6af09677|409b2dbc-b577-4f95-b553-be2b0b1f7216"
       ],
-      "drc_exclusions": [],
       "meta": {
         "filename": "board_design_settings.json",
         "version": 2
@@ -390,33 +408,6 @@
         "via_diameter": 0.6096,
         "via_drill": 0.508,
         "wire_width": 6.0
-      },
-      {
-        "bus_width": 12.0,
-        "clearance": 0.152,
-        "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
-        "diff_pair_width": 0.2,
-        "line_style": 0,
-        "microvia_diameter": 0.508,
-        "microvia_drill": 0.127,
-        "name": "SMD",
-        "nets": [
-          "/Net-(J1-CC1)",
-          "/Net-(J1-CC2)",
-          "/Net-(J1-Pad2)",
-          "/Net-(J1-Pad3)",
-          "Net-(J1-Pad1)",
-          "Net-(J1-Pad5)",
-          "unconnected-J1-SBU1",
-          "unconnected-J1-SBU2"
-        ],
-        "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.2,
-        "via_diameter": 0.6096,
-        "via_drill": 0.508,
-        "wire_width": 6.0
       }
     ],
     "meta": {
@@ -452,7 +443,9 @@
       "text_offset_ratio": 0.08
     },
     "legacy_lib_dir": "",
-    "legacy_lib_list": [],
+    "legacy_lib_list": [
+      "component"
+    ],
     "meta": {
       "version": 1
     },
@@ -473,11 +466,6 @@
     "subpart_first_id": 65,
     "subpart_id_separator": 0
   },
-  "sheets": [
-    [
-      "deb77407-5a87-4640-b77f-d4a3bcf4d719",
-      ""
-    ]
-  ],
+  "sheets": [],
   "text_variables": {}
 }
