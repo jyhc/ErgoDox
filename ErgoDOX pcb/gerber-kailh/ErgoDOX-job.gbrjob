@@ -5,7 +5,7 @@
       "Application": "Pcbnew",
       "Version": "(6.0.5)"
     },
-    "CreationDate": "2022-05-23T22:21:51-06:00"
+    "CreationDate": "2022-06-12T17:08:15-07:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
@@ -14,8 +14,8 @@
       "Revision": "rev?"
     },
     "Size": {
-      "X": 183.2178,
-      "Y": 159.2529
+      "X": 183.2305,
+      "Y": 142.4749
     },
     "LayerNumber": 2,
     "BoardThickness": 1.6,
@@ -27,7 +27,7 @@
       "PadToPad": 0.0,
       "PadToTrack": 0.0,
       "TrackToTrack": 0.3048,
-      "MinLineWidth": 0.4064,
+      "MinLineWidth": 0.254,
       "TrackToRegion": 0.508,
       "RegionToRegion": 0.508
     }
@@ -41,16 +41,6 @@
     {
       "Path": "ErgoDOX-Back.gbl",
       "FileFunction": "Copper,L2,Bot",
-      "FilePolarity": "Positive"
-    },
-    {
-      "Path": "ErgoDOX-F_Adhesive.gta",
-      "FileFunction": "Glue,Top",
-      "FilePolarity": "Positive"
-    },
-    {
-      "Path": "ErgoDOX-B_Adhesive.gba",
-      "FileFunction": "Glue,Bot",
       "FilePolarity": "Positive"
     },
     {
@@ -82,26 +72,6 @@
       "Path": "ErgoDOX-B_Mask.gbs",
       "FileFunction": "SolderMask,Bot",
       "FilePolarity": "Negative"
-    },
-    {
-      "Path": "ErgoDOX-User_Drawings.gbr",
-      "FileFunction": "Other,User",
-      "FilePolarity": "Positive"
-    },
-    {
-      "Path": "ErgoDOX-User_Comments.gbr",
-      "FileFunction": "Other,User",
-      "FilePolarity": "Positive"
-    },
-    {
-      "Path": "ErgoDOX-User_Eco1.gbr",
-      "FileFunction": "Other,User",
-      "FilePolarity": "Positive"
-    },
-    {
-      "Path": "ErgoDOX-User_Eco2.gbr",
-      "FileFunction": "Other,User",
-      "FilePolarity": "Positive"
     },
     {
       "Path": "ErgoDOX-Edge_Cuts.gm1",
