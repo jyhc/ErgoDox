@@ -33,7 +33,7 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.85,
+          "drill": 1.0,
           "height": 2.0,
           "width": 2.0
         },
@@ -466,6 +466,11 @@
     "subpart_first_id": 65,
     "subpart_id_separator": 0
   },
-  "sheets": [],
+  "sheets": [
+    [
+      "deb77407-5a87-4640-b77f-d4a3bcf4d719",
+      ""
+    ]
+  ],
   "text_variables": {}
 }
