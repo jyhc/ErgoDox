@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name "SofleChocTop")(type "KiCad")(uri "${KIPRJMOD}/SofleChocTop.pretty")(options "")(descr ""))
+  (lib (name "ergodox library")(type "KiCad")(uri "C:/Users/jyhc4/repos/ErgoDox/ErgoDOX pcb")(options "")(descr ""))
+)
