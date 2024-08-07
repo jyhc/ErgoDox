@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 4.1,
-          "height": 5.0,
-          "width": 5.0
+          "drill": 0.8128,
+          "height": 1.524,
+          "width": 1.524
         },
         "silk_line_width": 0.6096,
         "silk_text_italic": false,
@@ -53,7 +53,9 @@
         }
       },
       "diff_pair_dimensions": [],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "hole_clearance|187852500|149102660|0c309886-46d6-4d2c-af0f-749a3548146c|4fb1ef4b-7c23-4c70-920e-f966d990cf15"
+      ],
       "meta": {
         "filename": "board_design_settings.json",
         "version": 2
@@ -73,8 +75,8 @@
         "footprint": "error",
         "footprint_symbol_mismatch": "warning",
         "footprint_type_mismatch": "error",
-        "hole_clearance": "error",
-        "hole_near_hole": "error",
+        "hole_clearance": "warning",
+        "hole_near_hole": "warning",
         "holes_co_located": "warning",
         "invalid_outline": "error",
         "isolated_copper": "warning",
@@ -96,7 +98,7 @@
         "silk_over_copper": "warning",
         "silk_overlap": "warning",
         "skew_out_of_range": "error",
-        "solder_mask_bridge": "error",
+        "solder_mask_bridge": "warning",
         "starved_thermal": "error",
         "text_height": "warning",
         "text_thickness": "warning",
@@ -497,7 +499,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "filco.net",
-      "plot": "",
+      "plot": "gerber-v3/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
